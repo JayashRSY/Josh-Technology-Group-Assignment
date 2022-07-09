@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Consulting</title>
+    <!--CSS-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body onload="show()">       
+
+    <!--header-bg-->
+    <div class="header-bg">
+        <!--top-bar-->
+        <div class="top-bar">
+            <!--nav-title-->
+            <h3>Digital Consulting</h3>
+            <!--nav-col-->
+            <div class="nav-menu">
+                <!--nav-menu-->
+                <div>
+                    <a href="#home" class="active">Home</a>
+                    <a href="#home">Product</a>
+                    <a href="#home">Pricing</a>
+                    <a href="#home">Contact</a>
+                    <div class="nav-img">
+                        <a href="#"><img src="Assets/Vector.svg" alt="Vector"></a>
+                        <a href="#"><img src="Assets/icn shopping-cart .icn-xs.svg" alt="icn shopping-cart"></a>
+                    </div>    
+                </div>
+            </div>
+        </div> 
+        <!--header-data-->
+        <div class="header-data">
+            <h1>Drive More <br>Customers <br>Through Digital</h1>
+            <h4>We know how large objects will act, but things on a small scale.</h4>
+            <!--book-appointment-button-->
+            <button class="book-btn" type="button">Book Appointment</button>
+            <!--modal-->
+            <div class="modal-bg">
+                <div class="modal">
+                    <h5>Contact Us</h5>
+                    <h2>Make an Appointment</h2>
+                    <input type="text" id="name" placeholder="Full Name">
+                    <input type="email" id="email" placeholder="example@gmail.com">
+                    <input type="date" id="doa">
+                    <input type="text" id="message" placeholder="Message">
+                    <button class="modal-book">Book Appointment</button>
+                    <button class="modal-cancel">Cancel</button>
+                </div>        
+            </div><!--learn-more-button-->
+            <button class="more-btn" type="button">Learn More</button>
+        </div>
+    </div>
+    <!--why-us-section-->
+    <div class="why-us">
+        <div class="section-content">
+            <h2>WHY CHOOSE US</h2>
+            <p>Problems trying to resolve the conflict between <br>the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+        <!--cards-->
+        <div class="card1">
+            <div class="card1-data">
+                <div class="circle">
+                    <img src="Assets/clarity_users-line.svg" alt="clarity_users-line">
+                </div>
+                <h5>Web Development</h5>
+            </div>    
+            <div class="sub-card">
+                <p>- The best products start <br> with Figma<br>
+                    - Design with real data<br>
+                    - Lightning fast prototyping<br>
+                    - Fastest way to organize<br>
+                    - Work at the of thought.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="card1-data">
+                <div class="circle">
+                    <img src="Assets/fa-solid_award.svg" alt="fa-solid_award">
+                </div>
+                <h5>National top 50 firms</h5>
+            </div>
+            <div class="sub-card">
+                <p>- The best products start <br> with Figma<br>
+                    - Design with real data<br>
+                    - Lightning fast prototyping<br>
+                    - Fastest way to organize<br>
+                    - Work at the of thought.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="card1-data">
+                <div class="circle">
+                    <img src="Assets/carbon_notebook.svg" alt="carbon_notebook">
+                </div>
+                <h5>Digital Marketing</h5>
+            </div>
+            <div class="sub-card">
+                <p>- The best products start <br> with Figma<br>
+                    - Design with real data<br>
+                    - Lightning fast prototyping<br>
+                    - Fastest way to organize<br>
+                    - Work at the of thought.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <!--services-section-->
+    <div class="services">
+        <div class="section-content">
+            <h2>We are providing best <br>business service.</h2>
+            <p>Problems trying to resolve the conflict between <br>the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+        <!--video-frame-->
+        <div class="watch">
+            <iframe src="https://www.youtube.com/embed/AT6oSIDbGkw"></iframe>
+        </div>
+    </div>
+    <!--clients-section-->
+    <div class="clients">
+        <div class="section-content">
+            <h2>What Clients Say</h2>
+            <p>Problems trying to resolve the conflict between <br>the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+        <!--CAROUSEL-->
+        <div class="parent">
+            <div id="leftArrow" onclick="moveLeft()">
+                <img src="Assets/eva_arrow-back-fill.svg" alt="eva_arrow-back-fill">
+            </div>
+            <!--client-card-->
+            <div class="child" id="c1">
+                <div class="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bx-star.svg" alt="stars">
+                </div>
+                <p>Slate helps you see how many <br>
+                    more days you need to work to <br>
+                    reach your financial goal.</p>
+                <div class="clients-details">
+                    <img src="Assets/6bf6465e317c8783cb378dac2d3e0a40.png" alt="client-img">
+                    <div class="client-data">
+                        <a href="#">Regina Miles</a>
+                        <p>Designer</p>
+                    </div>
+                </div>   
+            </div>
+            <!--client-card-->
+            <div class="child" id="c2">
+                <div class="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bx-star.svg" alt="stars">
+                </div>
+                <p>Slate helps you see how many <br>
+                    more days you need to work to <br>
+                    reach your financial goal.</p>
+                <div class="clients-details">
+                    <img src="Assets/6bf6465e317c8783cb378dac2d3e0a40.png" alt="client-img">
+                    <div class="client-data">
+                        <a href="#">Regina Miles</a>
+                        <p>Designer</p>
+                    </div>
+                </div>   
+            </div>
+            <!--client-card-->
+            <div class="child" id="c3">
+                <div class="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bx-star.svg" alt="stars">
+                </div>
+                <p>Slate helps you see how many <br>
+                    more days you need to work to <br>
+                    reach your financial goal.</p>
+                <div class="clients-details">
+                    <img src="Assets/6574142deed99b053bd093bb59e5da62.png" alt="client-img">
+                    <div class="client-data">
+                        <a href="#">Regina Miles</a>
+                        <p>Designer</p>
+                    </div>
+                </div>   
+            </div>
+            <!--client-card-->
+            <div class="child" id="c4">
+                <div class="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bx-star.svg" alt="stars">
+                </div>
+                <p>Slate helps you see how many <br>
+                    more days you need to work to <br>
+                    reach your financial goal.</p>
+                <div class="clients-details">
+                    <img src="Assets/6574142deed99b053bd093bb59e5da62.png" alt="client-img">
+                    <div class="client-data">
+                        <a href="#">Regina Miles</a>
+                        <p>Designer</p>
+                    </div>
+                </div>   
+            </div>
+            <!--client-card-->
+            <div class="child" id="c5">
+                <div class="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bx-star.svg" alt="stars">
+                </div>
+                <p>Slate helps you see how many <br>
+                    more days you need to work to <br>
+                    reach your financial goal.</p>
+                <div class="clients-details">
+                    <img src="Assets/6bf6465e317c8783cb378dac2d3e0a40.png" alt="client-img">
+                    <div class="client-data">
+                        <a href="#">Regina Miles</a>
+                        <p>Designer</p>
+                    </div>
+                </div>   
+            </div>
+            <!--client-card-->
+            <div class="child" id="c6">
+                <div class="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bx-star.svg" alt="stars">
+                </div>
+                <p>Slate helps you see how many <br>
+                    more days you need to work to <br>
+                    reach your financial goal.</p>
+                <div class="clients-details">
+                    <img src="Assets/6bf6465e317c8783cb378dac2d3e0a40.png" alt="client-img">
+                    <div class="client-data">
+                        <a href="#">Regina Miles</a>
+                        <p>Designer</p>
+                    </div>
+                </div>   
+            </div>
+            <!--client-card-->
+            <div class="child" id="c7">
+                <div class="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bx-star.svg" alt="stars">
+                </div>
+                <p>Slate helps you see how many <br>
+                    more days you need to work to <br>
+                    reach your financial goal.</p>
+                <div class="clients-details">
+                    <img src="Assets/6574142deed99b053bd093bb59e5da62.png" alt="client-img">
+                    <div class="client-data">
+                        <a href="#">Regina Miles</a>
+                        <p>Designer</p>
+                    </div>
+                </div>   
+            </div>
+            <!--client-card-->
+            <div class="child" id="c8">
+                <div class="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bxs-star.svg" alt="stars">
+                    <img src="Assets/icn bx-star.svg" alt="stars">
+                </div>
+                <p>Slate helps you see how many <br>
+                    more days you need to work to <br>
+                    reach your financial goal.</p>
+                <div class="clients-details">
+                    <img src="Assets/6574142deed99b053bd093bb59e5da62.png" alt="client-img">
+                    <div class="client-data">
+                        <a href="#">Regina Miles</a>
+                        <p>Designer</p>
+                    </div>
+                </div>   
+            </div>
+            <div id="rightArrow" onclick="moveRight()">
+                <img src="Assets/eva_arrow-back-fill.svg" alt="eva_arrow-back-fill">
+            </div>
+        </div>
+    </div>
+    <!--footer-section-->
+    <div class="footer">
+        <div class="footer-head">
+            <h3>Digital Consulting</h3>
+        </div>
+        <div class="footer-icons">
+            <a href="#"><img src="Assets/ant-design_facebook-filled.svg" alt="ant-design_facebook-filled"></a>
+            <a href="#"><img src="Assets/ant-design_instagram-outlined.svg" alt="ant-design_instagram-outlined"></a>
+            <a href="#"><img src="Assets/ant-design_twitter-outlined.svg" alt="ant-design_twitter-outlined"></a>
+            <a href="#"><img src="Assets/carbon_logo-youtube.svg" alt="ant-design_facebook-filled"></a>
+        </div>
+        <hr>
+        <div class="footer-info">
+            <p>Company Info</p>
+            <a href="#">About Us</a>
+            <a href="#">Carrier</a>
+            <a href="#">We are hiring</a>
+        </div>
+        <div class="footer-info">
+            <p>Legal</p>
+            <a href="#">About Us</a>
+            <a href="#">Carrier</a>
+            <a href="#">We are hiring</a>
+        </div>
+        <div class="footer-info">
+            <p>Features</p>
+            <a href="#">Business Marketing</a>
+            <a href="#">User Analytic</a>
+            <a href="#">Live Chat</a>
+        </div>
+        <div class="touch">
+            <p>Get In Touch</p>
+            <input type="text" placeholder="Your Email"><button class="subscribe" type="submit">Subscribe</button>
+        </div>
+        <!--credit-section-->
+        <div class="footer-credits">
+            <p>All Right Reserved </p>
+        </div>
+    </div>
+    <!--script.js--->
+    <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>
